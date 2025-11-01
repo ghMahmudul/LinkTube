@@ -1,0 +1,594 @@
+/* Small Desktop*/
+
+@media (max-width: 1280px) {
+
+    .container {
+        gap: 8px;
+        padding: 12px 8px 12px 12px;
+    }
+
+    .loader {
+        width: 45px;
+        height: 30px;
+    }
+
+/* Login */
+
+    #login-header {
+        top: 60px;
+        left: 43.33px;
+        gap: 12px;
+    }
+
+    #login-header img {
+        width: 147.67px;
+    }
+
+    #login-header p {
+        font-size: 14.67px;
+        margin-left: 6px;
+    }
+
+    #login-form {
+        width: 300px;
+    }
+
+    #login-form input[type="text"],
+    #login-form input[type="password"] {
+        font-size: 14px;
+        padding: 12px;
+        border: 1px solid var(--white-0);
+        border-radius: 4px;
+        line-height: 18px;
+    }
+
+    #login-form button[type="submit"] {
+        font-size: 16px;
+        padding: 12px;
+        border-radius: 4px;
+        line-height: 18px;
+    }
+
+    #change-api-key-label {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #toggle-password {
+        padding: 15px 15px 15px 10px;
+        right: 0px;
+    }
+
+    #eye-open,
+    #eye-closed {
+        width: 13.33px;
+    }
+
+    .input {
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    #incorrect-popup {
+        width: 300px;
+        border: 1px solid #707070;
+        border-radius: 8px;
+        padding: 13.33px;
+    }
+
+    .icon-text {
+        gap: 13.33px;
+    }
+
+    .cross {
+        width: 18.67px;
+        height: 18.67px;
+        border-radius: 5px;
+    }
+
+    #cross-icon {
+        width: 6.67px;
+        height: 6.67px;
+    }
+
+    .toast-wrapper {
+        gap: 6.67px;
+    }
+
+    .error-title {
+        font-size: 16px;
+    }
+
+    .error-message {
+        font-size: 14px;
+    }
+
+    .okay-button {
+        font-size: 12px;
+        margin-top: 13.67px;
+        border: 1px solid #707070;
+        border-radius: 4px;
+        padding: 6.67px 8px;
+    }
+
+/* Video */
+    .main-video-wrapper .title {
+        margin: 14px;
+        font-size: 24px;
+    }
+
+    .main-video-wrapper .description-wrapper .description-title {
+        font-size: 18px;
+    }
+
+    .main-video-wrapper .description-wrapper .see-all {
+        font-size: 17px;
+    }
+
+    .main-video-wrapper .description-wrapper p {
+        font-size: 15.5px;
+    }
+
+/* Playlist */
+    .video-playlist .playlist-title {
+        font-size: 24px;
+    }
+
+    .logout {
+        padding: 6px 8px;
+    }
+
+    #logout-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    #search-bar {
+        padding: 9px;
+        font-size: 17px;
+    }
+
+    .clear-icon {
+        top: 64%;
+        padding: 9px 11px;
+        font-size: 17px;
+    }
+
+    #video-info {
+        font-size: 19px;
+        padding: 10px;
+    }
+
+    .video-playlist .videos::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .video-playlist .videos .video {
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .video-playlist .videos .video img {
+        max-width: 130px;
+    }
+
+    .video-playlist .videos .video p {
+        font-size: 18px;
+    }
+
+    .video-playlist .videos .video h3 {
+        padding-top: 4px;
+        font-size: 18px;
+    }
+}
+
+
+/* Laptop */
+
+@media (max-width: 1024px) {
+
+    .container {
+        gap: 5px;
+        padding: 10px 5px 10px 10px;
+    }
+
+/* Video */
+    .main-video-wrapper .title {
+        margin: 12px;
+        font-size: 21px;
+    }
+
+    .main-video-wrapper .description-wrapper .description-title {
+        font-size: 16.5px;
+    }
+
+    .main-video-wrapper .description-wrapper .see-all {
+        font-size: 15.5px;
+    }
+
+    .main-video-wrapper .description-wrapper p {
+        font-size: 15px;
+    }
+
+/* Playlist */
+    .video-playlist .playlist-title {
+        font-size: 21px;
+    }
+
+    .logout {
+        padding: 4.67px 7px;
+    }
+
+    #logout-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .search-bar-container {
+        padding: 10px 10px 5px 10px;
+    }
+
+    #search-bar {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .clear-icon {
+        top: 55%;
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+
+    #video-info {
+        font-size: 17.5px;
+        padding: 8px;
+    }
+
+    .video-playlist .videos::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .video-playlist .videos .video {
+        margin-top: 5px;
+    }
+
+    .video-playlist .videos .video img {
+        max-width: 102px;
+    }
+
+    .video-playlist .videos .video p {
+        font-size: 16.5px;
+    }
+
+    .video-playlist .videos .video h3 {
+        font-size: 16.5px;
+        padding-top: 0px;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width: 768px) {
+
+/* Login */
+    #login-header {
+        top: 12vh;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        gap: 13px;
+    }
+
+    #login-header img {
+        width: 160px;
+    }
+
+    #login-header p {
+        font-size: 16px;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+
+    #login-form {
+        width: 322px;
+    }
+
+    #login-form input[type="text"],
+    #login-form input[type="password"] {
+        font-size: 16px;
+        padding: var(--space-3);
+        border: 1.125px solid var(--white-0);
+    }
+
+    #login-form button[type="submit"] {
+        padding: var(--space-3);
+    }
+
+    #change-api-key-label {
+        cursor: none;
+    }
+
+    #playlist-id {
+        padding-right: 42px !important;
+    }
+
+    #toggle-password {
+        padding: 18px 15px 18px 10px;
+        cursor: none;
+    }
+
+    #eye-open,
+    #eye-closed {
+        width: 16px;
+    }
+
+    .input {
+        gap: 21px;
+        margin-bottom: 42px;
+    }
+
+    #incorrect-popup {
+        width: 340px;
+        border: 1.14px solid #707070;
+        border-radius: 9.6px;
+        padding: var(--space-3);
+    }
+
+    .icon-text {
+        gap: var(--space-3);
+    }
+
+    .cross {
+        width: 21px;
+        height: 21px;
+        border-radius: 4.8px;
+    }
+
+    #cross-icon {
+        width: 8.5px;
+        height: 8.5px;
+    }
+
+    .toast-wrapper {
+        gap: 8px;
+    }
+
+    .error-title {
+        font-size: 18.24px;
+    }
+
+    .error-message {
+        font-size: 16px;
+    }
+
+    .okay-button {
+        font-size: 15px;
+        margin-top: var(--space-3);
+        border: 1.14px solid #707070;
+        border-radius: 4.8px;
+        padding: 8px 9.6px;
+    }
+
+/* Video */
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr; /* Define the rows for mobile */
+        padding: 10px;
+    }
+
+    .description-wrapper {
+        display: none;
+        max-height: 105px;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .main-video-wrapper .title {
+        font-size: 20px;
+    }
+
+    .open-description {
+        display: inline-block;
+    }
+
+    #arrow-icon {
+        width: 16px;
+        height: auto;
+    }
+
+    .description-wrapper.show {
+        display: block;
+    }
+
+    .description-wrapper.expanded {
+        max-height: none;
+        overflow: visible;
+    }
+
+    .main-video-wrapper .description-wrapper {
+        margin-bottom: 10px;
+        visibility: visible;
+    }
+
+    .main-video-wrapper .description-wrapper .description-title {
+        font-size: 16.5px;
+    }
+
+    .main-video-wrapper .description-wrapper .see-all {
+        font-size: 16.5px;
+    }
+
+    .main-video-wrapper .description-wrapper .see-all:hover {
+        color: var(--link);
+    }
+
+    .main-video-wrapper .description-wrapper p {
+        font-size: 15px;
+    }
+
+/* Playlist */
+    .title-logout {
+        margin-top: 0px;
+    }
+
+    .video-playlist .playlist-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--white-2);
+        padding-right: 10px;
+    }
+
+    .logout {
+        transform: translateX(-7.5px);
+    }
+
+    .logout:hover {
+        cursor: none;
+    }
+
+    .search-bar-container {
+        padding: 10px 10px 5px 10px;
+    }
+
+    .clear-icon {
+        cursor: none;
+    }
+
+    #video-info {
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+
+    .video-playlist .videos::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .video-playlist .videos {
+        padding-bottom: var(--space-5);
+    }
+
+    .video-playlist .videos .video {
+        cursor: none;
+        padding: var(--space-5);
+        margin-top: var(--space-7);
+    }
+
+    .video-playlist .videos .video:hover {
+        transform: none;
+    }
+
+    .video-playlist .videos .video img {
+        max-width: 118px;
+    }
+
+    .video-playlist .videos .video p {
+        font-size: 17px;
+    }
+
+    .video-playlist .videos .video h3 {
+        font-size: 17px;
+        padding-top: 4px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+/* Login */
+    #shape-1 {
+        width: 40vw;
+    }
+
+    #shape-2 {
+        content: url('utilities/shape-2-mobile.svg');
+    }
+
+/* Video */
+    .container {
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .main-video {
+        border-radius: 0px;
+    }
+
+    .main-video-wrapper .title {
+        font-size: 18px;
+        margin: var(--space-4) 0px var(--space-4) var(--space-5);
+    }
+
+    #arrow-icon {
+        width: 15px;
+    }
+
+    .main-video-wrapper .description-wrapper .description-title {
+        font-size: 16px;
+    }
+
+    .main-video-wrapper .description-wrapper .see-all {
+        font-size: 16px;
+    }
+
+    .main-video-wrapper .description-wrapper p {
+        font-size: 14.5px;
+        line-height: 1.5;
+    }
+
+/* Playlist */
+    .video-playlist .playlist-title {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .logout {
+        margin-top: 3px;
+        padding: 4px 6px;
+    }
+
+    #logout-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    #video-info {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .search-bar-container {
+        padding: 10px 10px 5px 10px;
+    }
+
+    #search-bar {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    .clear-icon {
+        font-size: 14px;
+    }
+
+    .video-playlist .videos::-webkit-scrollbar {
+        width: 3.5px;
+    }
+
+    .video-playlist .videos .video {
+        margin-top: 3px;
+    }
+
+    .video-playlist .videos .video img {
+        max-width: 112px;
+    }
+
+    .video-playlist .videos .video h3 {
+        font-size: 16px;
+    }
+
+    .video-playlist .videos .video p {
+        font-size: 16px;
+    }
+}

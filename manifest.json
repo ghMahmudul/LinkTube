@@ -1,0 +1,20 @@
+{
+    "name": "LinkTube",
+    "short_name": "LinkTube",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#222222",
+    "theme_color": "#202428",
+    "icons": [
+        {
+            "src": "utilities/linktube-192.svg",
+            "type": "image/svg+xml",
+            "sizes": "192x192"
+        },
+        {
+            "src": "utilities/linktube-512.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        }
+    ]
+}

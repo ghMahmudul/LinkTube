@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LinkTube</title>
+    <link rel="icon" href="utilities/linktube-16.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-overlay" class="loading-overlay" style="display: none;">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Login Screen -->
+    <div id="login-section" style="display: none;">
+        <div id="login-header">
+            <img src="utilities/logo-name.svg" alt="Logo">
+            <p>Watch the YouTube playlist<br>
+                without any distractions!
+            </p>
+        </div>
+        <form id="login-form">
+            <div class="input">
+                <input type="text" id="playlist-name" class="input-area" placeholder="NAME" autocomplete="username">
+                <div class="password-field" style="position: relative;">
+                    <input type="password" id="playlist-id" class="input-area" placeholder="LINK or ID" required
+                        autocomplete="new-password" style="padding-right: 3rem;">
+                    <span id="toggle-password">
+                        <img id="eye-open" src="utilities/eye-show.svg" alt="Show">
+                        <img id="eye-closed" src="utilities/eye-hide.svg" alt="Hide">
+                    </span>
+                </div>
+                <input type="text" id="user-api-key" class="input-area" placeholder="API KEY" style="display: none;">
+            </div>
+            <button type="submit">ENTER</button>
+            <label for="change-api-key" id="change-api-key-label">Change API Key</label>
+        </form>
+        <div id="design-shape">
+            <img id="shape-1" src="utilities/shape-1.svg" alt="Shape-1">
+            <img id="shape-2" src="utilities/shape-2.svg" alt="Shape-2">
+        </div>
+    </div>
+
+    <!-- Incorrect Toast -->
+    <div id="incorrect-toast" class="incorrect-toast">
+        <div id="incorrect-popup">
+            <div class="icon-text">
+                <span class="cross">
+                    <img id="cross-icon" src="utilities/cross.svg" alt="cross" width="10px" height="10px">
+                </span>
+                <div class="toast-wrapper">
+                    <p class="error-title">Incorrect!</p>
+                    <p class="error-message">Check Playlist ID or Change API Key.</p>
+                </div>
+            </div>
+            <button id="okay-button" class="okay-button">Okay</button>
+        </div>
+    </div>
+
+    <!-- Home Page -->
+    <main class="container" style="display: none;">
+        <section class="main-video-wrapper">
+            <div class="main-video">
+                <iframe id="main-video" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="title-description">
+                <h3 class="title"></h3>
+                <span class="open-description">
+                    <img id="arrow-icon" src="utilities/arrow.svg" alt="arrow">
+                </span>
+            </div>
+            <div class="description-wrapper">
+                <div class="description-header">
+                    <span class="description-title">Description</span>
+                    <span class="see-all">See all</span>
+                </div>
+                <p class="description"></p>
+            </div>
+        </section>
+
+        <section class="video-playlist">
+            <div class="title-logout">
+                <h3 class="playlist-title"></h3>
+                <span class="logout" title="Logout">
+                    <img id="logout-icon" src="utilities/logout.svg" alt="logout" width="18px" height="18px">
+                </span>
+            </div>
+            <div class="search-bar-container">
+                <input type="text" id="search-bar" placeholder="Search" />
+                <span id="clear-search" class="clear-icon" style="display: none;">&#x2715;</span>
+            </div>
+            <p id="video-info"></p>
+            <div class="videos"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
