@@ -14,7 +14,7 @@
 - **Privacy-Focused** - No tracking or data collection
 - **API Key Support** - Optionally use your own YouTube API key
 
-## 🌐 Visit
+## 🌐 Explore
 
 **Website**
 1. Go to [linktube.vercel.app](https://linktube.vercel.app/)
