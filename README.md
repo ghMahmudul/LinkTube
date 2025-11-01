@@ -14,7 +14,7 @@
 - **Privacy-Focused** - No tracking or data collection
 - **API Key Support** - Optionally use your own YouTube API key
 
-## 🚀 Getting Started
+## 🌐 Visit
 
 **Website**
 1. Go to [linktube.vercel.app](https://linktube.vercel.app/)
@@ -36,16 +36,6 @@ Enhance your YouTube player with **LinkTube** extension — available for:
 - Adjust player controls  
 - Remove unwanted elements  
 - Match LinkTube’s clean style
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
